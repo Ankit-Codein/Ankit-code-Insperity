@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 500; */
+}
+
+/* .second-box {
+    border: 1px solid red;
+} */
+ 
+.second-box h1 {
+    text-align: center;
+    font-size: 48px;
+}
+.second-box span {
+    color: rgba(238, 50, 25, 0.938);
+}
+
+.second-box .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 20px;
+}
+
+.second-box .card-container .card {
+    width: 160px;
+    height: 160px;
+    border-radius: 12px;
+}
+
+.second-box .card-container .card img {
+    width: 50px;
+    margin: 1rem;
+}
+
+.second-box .card-container .card p {
+    width: 150px;
+    padding: 5px 10px;
+    /* border: 1px solid red; */
+    color: white;
+
+}
+
+.second-box .card-container .first {
+    background-color: rgb(233, 120, 154);
+}
+
+.second-box .card-container .second {
+    background-color: rgb(111, 111, 243);
+}
+
+.second-box .card-container .third {
+    background-color: skyblue;
+}
+
+.second-box .card-container .four {
+    background-color: rgb(201, 201, 75);
+}
+
+.second-box .card-container .five {
+    width: 125px;
+    background-color: orange;
+    /* border: 1px solid red; */
+}
+
+#first-second {
+    display: flex;
+    gap: 20px;
+}
+
+#third-four {
+    display: flex;
+    gap: 20px;
+}
+
+/* ============== third box  ============= */
+
+.third-box {
+    display: flex;
+    gap: 40px;
+    padding: 50px 70px;
+    /* border: 1px solid red; */
+}
+ 
+.third-box img {
+    border-radius: 14px;
+}
+
+.third-box #front-image {
+    width: 300px;
+    border: 2px solid whitesmoke;
+    position: relative;
+    top: -150px;
+    left: 260px;
+}
+
+.third-box .head {
+    width: 60%;
+    padding: 25px;
+    /* border: 1px solid red; */
+}
+
+.third-box .head h2 {
+    font-size: 38px;
+    /* border: 1px solid red; */
+}
+
+.third-box .head h2 span {
+    color: rgba(238, 50, 25, 0.938);
+}
+
+.third-box .head .small-midsize {
+    display: flex;
+    padding: 20px 10px ;
+    gap: 20px;
+    /* border: 1px solid red; */
+}
+
+.third-box .head .small-midsize button {
+    background: none;
+    border: 1px solid rgba(238, 50, 25, 0.938);;
+    color: rgba(238, 50, 25, 0.938);;
+    padding: 10px 16px;
+    border-radius: 5px;
+}
+
+.third-box .head .small-midsize button:hover {
+    background: rgb(243, 97, 12);
+    color: white;
+
+}
+
+/* ==========  media query  ============ */
+
+@media(max-width : 567px) {
+    .second-box h1 {
+        font-size: 32px;
+    }
+    .second-box .card-container {
+        flex-direction: column;
+        align-items: first baseline;
+        padding: 25px;
+    }
+
+    .third-box {
+        flex-direction: column;
+        gap: 0;
+        padding: 30px 20px;
+        /* border: 1px solid red; */
+    }
+    .third-box img {
+        width: 280px;
+    }
+
+    .third-box #front-image {
+        width: 180px;
+        border: 2px solid whitesmoke;
+        position: relative;
+        top: -80px;
+        left: 170px;
+    }
+
+    .third-box .head {
+        width: 100%;
+        padding: 10px;
+    }
+    .third-box .head h2 {
+        font-size: 28px;
+    }
+    .third-box .head .small-midsize button {
+        padding: 10px;
+    }
+    
+}
+
+@media(max-width : 768px) {
+    .second-box h1 {
+        font-size: 38px;
+    }
+
+    .second-box .card-container {
+
+        flex-direction: column;
+        align-items: start;
+        padding: 30px;
+    }
+
+    .third-box  {
+        flex-direction: column;
+        gap: 0;
+        padding: 30px 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
